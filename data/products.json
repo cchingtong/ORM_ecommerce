@@ -1,0 +1,5 @@
+[
+    { "product_id": 1, "category_id": 1, "name": "Smartphone", "price": 699.99 },
+    { "product_id": 2, "category_id": 2, "name": "Fiction Book", "price": 19.99 }
+  ]
+  
