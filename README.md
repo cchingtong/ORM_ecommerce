@@ -1,6 +1,7 @@
 ERD
 https://app.diagrams.net/#G1dvFuBMK3KzCVhXy9Qz4LoG3_4_-HaoMj
 Entity Relationships
+![Screenshot 2024-06-11 183015](https://github.com/cchingtong/ORM_ecommerce/assets/111832160/082e7941-5f2b-445e-8649-25c7dedccba1)
 
  1. Users- Profiles (1:1)
  ○ Oneusercanhave one profile, and one profile belongs to one user.
