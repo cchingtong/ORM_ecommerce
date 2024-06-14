@@ -1,6 +1,7 @@
 ERD
 https://app.diagrams.net/#G1dvFuBMK3KzCVhXy9Qz4LoG3_4_-HaoMj
- Entity Relationships
+Entity Relationships
+
  1. Users- Profiles (1:1)
  ○ Oneusercanhave one profile, and one profile belongs to one user.
  ○ Relationship: Users.user_id-> Profiles.user_id
@@ -15,7 +16,9 @@ https://app.diagrams.net/#G1dvFuBMK3KzCVhXy9Qz4LoG3_4_-HaoMj
  ○ Thismany-to-many relationship is managed through the OrderProducts table.
  ○ Relationship: Orders.order_id-> OrderProducts.order_id and
  Products.product_id-> OrderProducts.product_id
- API Endpoints
+
+API Endpoints
+
 Users
  ● Create User
  ○ POST /users
@@ -28,6 +31,7 @@ Users
  ○ Request body: { "username": string, "email": string }
  ● Delete User
  ○ DELETE /users/:id
+ 
  Profiles
  ● Create Profile
  ○ POST /profiles
@@ -42,6 +46,7 @@ Users
  "address": string }
  ● Delete Profile
  ○ DELETE /profiles/:id
+ 
  Categories
  ● Create Category
  ○ POST /categories
@@ -53,6 +58,7 @@ Users
 ○ Request body: { "name": string }
  ● Delete Category
  ○ DELETE /categories/:id
+ 
  Products
  ● Create Product
  ○ POST /products
@@ -69,6 +75,7 @@ Users
  "price": number }
  ● Delete Product
  ○ DELETE /products/:id
+ 
  Orders
  ● Create Order
  ○ POST /orders
